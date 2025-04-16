@@ -56,8 +56,6 @@ The Economic Times RAG Agent is built to help you quickly find and understand th
 
 ## Future Steps
 
-## Future Steps
-
 - **Add More Article Details:**  
   We can include more information such as publication dates, author bios, categories, and even images or links with each article.
 
