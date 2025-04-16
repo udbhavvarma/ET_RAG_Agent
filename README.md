@@ -56,26 +56,22 @@ The Economic Times RAG Agent is built to help you quickly find and understand th
 
 ## Future Steps
 
-To keep the Economic Times RAG Agent useful, effective, and scalable, we plan to move forward with several improvements:
+## Future Steps
 
-- **Additional Data Details:**  
-  - **Metadata Enrichment:** Besides the article title and content, we can add more details like publication time, author bio, tags/categories, and even sentiment scores.  
-  - **Media and Supplementary Information:** Consider extracting images, infographics, and related links to provide users with richer content alongside the text.
+- **Add More Article Details:**  
+  We can include more information such as publication dates, author bios, categories, and even images or links with each article.
 
-- **Better Text Segmentation:**  
-  - **Improved Chunking:** Develop smarter techniques for splitting long articles into meaningful sections rather than fixed-length chunks. This can include paragraph-level segmentation or the use of natural breakpoints (such as headers or sub-headings).  
-  - **Dynamic Context Building:** When retrieving snippets for the query, design a system to select not just the top N chunks, but those which best capture the article’s context, possibly merging overlapping sections for coherence.
+- **Improve Text Segmentation:**  
+  We can work on smarter ways to split long articles into smaller, meaningful sections. This will help us give better context for each query.
 
-- **Improved Retrieval Options:**  
-  - **Exploring Alternative Vector Engines:** As the dataset grows, it might be beneficial to test managed vector search platforms like Pinecone or Qdrant. These tools often provide additional features like real-time scaling and high-performance search capabilities.  
-  - **Hybrid Search Techniques:** Integrate classical keyword-based search methods along with vector search to boost precision, especially for queries that need exact phrases.
+- **Enhance the Search Function:**  
+  We can try out other vector search tools like Pinecone or Qdrant as our dataset grows. We might also combine keyword and vector searches for more precise results.
 
-- **User-Friendly Interface:**  
-  - **Web-Based Front End:** Develop a lightweight, responsive web interface using frameworks like React or Vue.js. This would provide a more engaging user experience beyond the command-line interface.  
-  - **Mobile Application:** Consider creating a mobile-friendly version of the interface to reach users on the go.  
-  - **Interactive Visualizations:** Add features like highlighted text in articles, clickable results for deeper dives, and real-time feedback on search progress.
+- **Build a Better Interface:**  
+  We can create a user-friendly web interface using frameworks like React or Vue.js. We could even build a mobile-friendly version to make our tool more accessible.
 
-- **Model Tuning:**  
-  - **Domain-Specific Fine-Tuning:** Fine-tune the groq language model with Economic Times-specific content. This could involve training on historical articles and curated Q&A pairs to improve relevance and accuracy.  
-  - **Continuous Learning:** Implement mechanisms for the system to learn from user interactions, which can guide periodic updates to the model and retrieval algorithms.
+- **Tune the Language Model:**  
+  We can fine-tune the groq language model using Economic Times content. We can also let the system learn from user feedback and improve over time.
 
+- **Improve Monitoring and Feedback:**  
+  We can set up simple monitoring tools to track how our system performs. We can also gather user feedback to fix issues and enhance the overall experience.
