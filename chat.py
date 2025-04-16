@@ -12,11 +12,11 @@ client = groq.Groq(
     api_key=os.environ.get("GROQ_API_KEY"),
 )
 
-# File paths for articles and the FAISS index
+
 DATA_FILE = "articles.json"
 INDEX_FILE = "faiss.index"
 
-# Initialize the embedding model
+
 embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
 
 def load_articles():
